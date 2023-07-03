@@ -1,0 +1,3 @@
+WebElement mymonth = driver.findElement(By.className("react-datepicker__month-select"));
+		Select m = new Select(mymonth);
+		m.selectByVisibleText(month);
